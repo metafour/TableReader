@@ -19,6 +19,10 @@
 		0102C43E181EBAC400B7198D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0102C426181EBAC400B7198D /* UIKit.framework */; };
 		0102C446181EBAC500B7198D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0102C444181EBAC500B7198D /* InfoPlist.strings */; };
 		0102C448181EBAC500B7198D /* TableReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102C447181EBAC500B7198D /* TableReaderTests.m */; };
+		0102C453181EBB8700B7198D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102C452181EBB8700B7198D /* TableViewController.m */; };
+		0102C456181EBD6300B7198D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102C455181EBD6300B7198D /* WebViewController.m */; };
+		0102C459181EEA9600B7198D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102C458181EEA9600B7198D /* DetailViewController.m */; };
+		0102C45C181EFC1E00B7198D /* dvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102C45B181EFC1E00B7198D /* dvc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		0102C443181EBAC500B7198D /* TableReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableReaderTests-Info.plist"; sourceTree = "<group>"; };
 		0102C445181EBAC500B7198D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0102C447181EBAC500B7198D /* TableReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableReaderTests.m; sourceTree = "<group>"; };
+		0102C451181EBB8700B7198D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0102C452181EBB8700B7198D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		0102C454181EBD6300B7198D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0102C455181EBD6300B7198D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0102C457181EEA9600B7198D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0102C458181EEA9600B7198D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0102C45A181EFC1E00B7198D /* dvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dvc.h; sourceTree = "<group>"; };
+		0102C45B181EFC1E00B7198D /* dvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dvc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +119,16 @@
 		0102C428181EBAC400B7198D /* TableReader */ = {
 			isa = PBXGroup;
 			children = (
+				0102C45A181EFC1E00B7198D /* dvc.h */,
+				0102C45B181EFC1E00B7198D /* dvc.m */,
 				0102C431181EBAC400B7198D /* AppDelegate.h */,
 				0102C432181EBAC400B7198D /* AppDelegate.m */,
+				0102C451181EBB8700B7198D /* TableViewController.h */,
+				0102C452181EBB8700B7198D /* TableViewController.m */,
+				0102C457181EEA9600B7198D /* DetailViewController.h */,
+				0102C458181EEA9600B7198D /* DetailViewController.m */,
+				0102C454181EBD6300B7198D /* WebViewController.h */,
+				0102C455181EBD6300B7198D /* WebViewController.m */,
 				0102C434181EBAC400B7198D /* Images.xcassets */,
 				0102C429181EBAC400B7198D /* Supporting Files */,
 			);
@@ -239,8 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0102C459181EEA9600B7198D /* DetailViewController.m in Sources */,
 				0102C433181EBAC400B7198D /* AppDelegate.m in Sources */,
+				0102C453181EBB8700B7198D /* TableViewController.m in Sources */,
+				0102C45C181EFC1E00B7198D /* dvc.m in Sources */,
 				0102C42F181EBAC400B7198D /* main.m in Sources */,
+				0102C456181EBD6300B7198D /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
